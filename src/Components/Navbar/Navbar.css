@@ -1,0 +1,80 @@
+
+*{transition:all 0.3s ease-in-out;}
+.navbar-container{
+    background-image: url("/src/Assets/klr-bg2.jpg");
+    height:max-content;
+    clear:both;
+  overflow:auto;
+}
+
+.logo img{
+    float:left;
+max-height: 100px;
+max-width: 100px;
+}
+ul li{
+    display: inline-block; padding:10px;
+    font-size:20px; font-family:raleway;
+}
+
+ul li:hover{
+    color:black;
+    
+  }
+  nav{float:left;}
+
+  .list-item{
+      color: white;
+      font-size: 20px;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  /* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: medium;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

@@ -1,0 +1,15 @@
+.popshow{
+    text-align: center;
+    background-color: rgb(236, 26, 26);
+    position:sticky;
+    color: white;
+    font-size: large;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.box{
+min-height: 100%;
+margin-bottom: 0px;
+
+}

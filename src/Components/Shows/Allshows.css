@@ -6,4 +6,65 @@
     position:relative;
     height: auto;
     width: 100%;
+    font-family: 'PT Sans', sans-serif;
+  }
+ 
+  .container-glass {
+    position: relative;
+    padding: 2rem 1.5rem;
+    width: 100%;
+    max-width: 300px;
+    background-color: rgba(182, 162, 162, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px 22px rgba(0, 0, 0, 0.08);
+    height: 625px;
+  }
+  
+  
+  .container-glass .img {
+    width: 100%;
+    border-radius: 7px;
+  }
+  
+  .container-glass .text {
+    font-size: 1.01rem;
+    color: #DDD;
+    margin: 2rem 0;
+    text-align: justify;
+  }
+  
+  .container-glass  {
+    display: block;
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.02rem;
+    width: 1040%;
+    max-width: 300px;
+    padding: .6rem 1rem;
+    background-color: transparent;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    color: #ffdd00;
+    cursor: pointer;
+    transition: all .2s linear;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .container-glass .btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .btn {
+      float: left;
+      color: red;
+      background-color: black;
+      width: 100px;
+  }
+
+  .card-row {
+      align-items: left;
   }

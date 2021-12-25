@@ -9,3 +9,27 @@
   }
   
   nav{float:left;}
+  .announcement {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    background: black;
+    color: white;
+    font-family: Arial, sans;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    font-size: 0.8em;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+  }
+  
+  .announcement a { 
+    color: #ccc; 
+  }
+  
+  .announcement a:hover {
+    color: red;
+  }

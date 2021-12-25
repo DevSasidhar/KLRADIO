@@ -1,0 +1,23 @@
+.vid-column{
+    float:left;
+    margin-right: 15px;
+}
+
+
+.vid-h{
+    color: white;
+    text-align: justify;
+    margin-right: 15px;
+}
+
+.vid-desc{
+    text-align: justify;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+
+.card-row{
+    margin-top:10px;
+    margin-bottom: 20px;
+    float: left;
+}

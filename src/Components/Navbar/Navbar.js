@@ -1,7 +1,6 @@
 import React from "react";
 import "./Navbar.css";
 import logo from "../../Assets/klr-logo.png";
-import {Link} from "react-router-dom";
 const Navbar = () => {
  
   return (
@@ -37,7 +36,7 @@ const Navbar = () => {
                 </button>
                 <div class="dropdown-content">
                   <a href="/faculty-interviews">Faculty Interviews</a>
-                  <a href="celeb-interviews">Celeb Interviews</a>
+                  <a href="/celeb-interviews">Celeb Interviews</a>
                 </div>
               </div>
             </li>

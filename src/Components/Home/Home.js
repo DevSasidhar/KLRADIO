@@ -11,10 +11,15 @@ const Home = () => {
   return (
     <div className="App">
       <Navbar />
-      <Carousel />  
+      <Carousel />
       <Homeshows />
       <Homevideos />
-      <Sticky />   
+      <Sticky />
+      <div class="announcement">
+        <p>
+          Campus Updates
+        </p>
+      </div>
       <Footer />
     </div>
   );

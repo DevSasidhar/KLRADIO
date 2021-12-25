@@ -16,42 +16,42 @@ const Homeshows = () => {
          <div className="show-container">
           <div class="row">
             <div class="column">
-              <img src={show1} width={253}/>
+              <img src={show1} width={253} class="image"/>
             </div>
             <div class="column">
-              <img src={show2} width={253}/>
+              <img src={show2} width={253} class="image"/>
             </div>
             <div class="column">
-              <img src={show3} width={253}/>
+              <img src={show3} width={253} class="image"/>
             </div>
             <div class="column">
-              <img src={show4} width={253}/>
+              <img src={show4} width={253} class="image"/>
             </div>
             <div class="column">
-              <img src={show5} width={253}/>
+              <img src={show5} width={253} class="image"/>
             </div>
             <div class="column">
-              <img src={show6} width={253}/>
+              <img src={show6} width={253} class="image"/>
             </div>
           </div>
           <div class="row">
           <div class="column">
-              <img src={show1} width={253}/>
+              <img src={show1} width={253} class="image"/>
             </div>
             <div class="column">
-              <img src={show2} width={253}/>
+              <img src={show2} width={253} class="image"/>
             </div>
             <div class="column">
-              <img src={show3} width={253}/>
+              <img src={show3} width={253} class="image"/>
             </div>
             <div class="column">
-              <img src={show4} width={253}/>
+              <img src={show4} width={253} class="image"/>
             </div>
             <div class="column">
-              <img src={show5} width={253}/>
+              <img src={show5} width={253} class="image"/>
             </div>
             <div class="column">
-              <img src={show6} width={253}/>
+              <img src={show6} width={253} class="image"/>
             </div>
           </div>
         </div> 

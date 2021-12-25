@@ -23,7 +23,9 @@ margin: auto;
         display: table-cell;
         margin: auto;
   }
-  
+.column:hover .image{
+    opacity: 0.3;
+}
   /* Clear floats after image containers */
   .row::after {
     content: "";

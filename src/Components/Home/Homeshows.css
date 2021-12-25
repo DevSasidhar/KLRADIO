@@ -7,9 +7,38 @@
     padding-bottom: 10px;
     padding-top: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
 }
 .box{
 min-height: 100%;
 margin-bottom: 0px;
 
 }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    /* width: 33.33%; */
+        display: table-cell;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+  }
+  .row{
+      width:100%;
+      margin-left: 0%;
+      margin-right: 0%;
+      align-items: center;
+      display: table;
+      margin-top: -0.25rem;
+     
+      padding: 0px;
+  }
+  .show-container{
+      margin-top:0.2rem;
+  }

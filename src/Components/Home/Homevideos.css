@@ -13,7 +13,7 @@
 .box{
 min-height: 100%;
 margin-bottom: 0px;
-margin: auto;
+
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -41,6 +41,6 @@ margin: auto;
      
       padding: 0px;
   }
-  .show-container{
+  .vid-container{
       margin-top:0.2rem;
   }

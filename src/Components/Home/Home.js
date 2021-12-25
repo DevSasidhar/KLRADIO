@@ -4,6 +4,7 @@ import Sticky from "../Sticky/Sticky";
 import Carousel from "../Carousel/Carousel";
 import Footer from "../Footer/Footer";
 import Homeshows from "../Home/Homeshows";
+import Homevideos from "../Home/Homevideos";
 import "./Home.css";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
       <Navbar />
       <Carousel />  
       <Homeshows />
+      <Homevideos />
       <Sticky />   
       <Footer />
     </div>

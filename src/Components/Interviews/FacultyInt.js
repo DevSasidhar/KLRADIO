@@ -2,11 +2,13 @@ import React from "react";
 import ReactPlayer from "react-player";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import Sticky from "../Sticky/Sticky";
 import "./FacultyInt.css";
 const FacultyInt = () => {
   return (
     <div className="App">
       <Navbar />
+      <Sticky />
       <div class="card-row">
         <div className="vid-column">
           <ReactPlayer width={506} url="https://youtu.be/pyVmopYLxxY" />

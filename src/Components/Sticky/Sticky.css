@@ -4,8 +4,9 @@
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    
   }
-  
+
   .icon-bar a {
     display: block;
     text-align: center;
@@ -13,6 +14,7 @@
     transition: all 0.3s ease;
     color: white;
     font-size: 20px;
+    z-index: -1;
   }
   
   .icon-bar a:hover {
@@ -28,12 +30,7 @@
     background: #55ACEE;
     color: white;
   }
-  
-  .google {
-    background: #dd4b39;
-    color: white;
-  }
-  
+
   .linkedin {
     background: #007bb5;
     color: white;

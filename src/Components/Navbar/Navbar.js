@@ -47,13 +47,6 @@ const Navbar = () => {
 					</button>
 				</div>
 			</li>
-            <li className="list-item">
-				<div class="dropdown">
-					<button class="dropbtn">
-            <a href="/upcoming-events" class="dropbtn">Upcoming Events</a>						
-					</button>
-				</div>
-			</li>
 			<li className="list-item">
 				<div class="dropdown">
 					<button class="dropbtn">

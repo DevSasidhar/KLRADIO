@@ -43,10 +43,10 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <a href="https://www.instagram.com/sasidhar._.reddy/">Instagram</a>
-            <a href="https://www.facebook.com/SasidharReddy11/">Facebook</a>
-            <a href="https://www.youtube.com/c/Worksaftercollege">Youtube</a>
-            <a href="https://www.linkedin.com/in/sasidhar-reddy-0b2446178/">LinkedIn</a>
+            <a href="https://www.instagram.com/younifyklradio/">Instagram</a>
+            <a href="https://www.facebook.com/kluradio/">Facebook</a>
+            <a href="https://www.youtube.com/channel/UCse4FD6zAmrEl8Xz2y1aaug">Youtube</a>
+            <a href="https://www.linkedin.com/company/klradio/about/">LinkedIn</a>
           </div>
           <div class="footer-link-items">
               <h2>Address</h2>

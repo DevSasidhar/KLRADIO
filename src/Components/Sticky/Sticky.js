@@ -5,22 +5,20 @@ const Sticky = () => {
     <div>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       <div class="icon-bar">
-        <a href="#" class="facebook">
+        <a href="https://www.facebook.com/KLRadio/" class="facebook">
           <i class="fa fa-facebook"></i>
         </a>
         <a href="#" class="twitter">
           <i class="fa fa-twitter"></i>
         </a>
-        <a href="#" class="google">
-          <i class="fa fa-google"></i>
-        </a>
-        <a href="#" class="linkedin">
+        <a href="https://www.linkedin.com/company/klradio/about/" class="linkedin">
           <i class="fa fa-linkedin"></i>
         </a>
-        <a href="#" class="youtube">
+        <a href="https://www.youtube.com/channel/UCse4FD6zAmrEl8Xz2y1aaug" class="youtube">
           <i class="fa fa-youtube"></i>
         </a>
       </div>
+      
     </div>
   );
 };

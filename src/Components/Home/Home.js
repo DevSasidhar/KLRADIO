@@ -5,6 +5,7 @@ import Carousel from "../Carousel/Carousel";
 import Footer from "../Footer/Footer";
 import Homeshows from "../Home/Homeshows";
 import Homevideos from "../Home/Homevideos";
+import Upcomingevents from "../UpcomingEvents/Upcomingevents";
 import "./Home.css";
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
           Campus Updates
         </p>
       </div>
+      <Upcomingevents />
       <Footer />
     </div>
   );

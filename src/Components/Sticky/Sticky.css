@@ -6,7 +6,24 @@
     transform: translateY(-50%);
     
   }
-
+.playbtn{
+  position: fixed;
+    top: 50%;
+    right: 10px;
+}
+.playbtn:hover{
+  cursor: pointer;
+}
+.liveicon{
+  width: 100px;
+}
+.listen{
+  margin-top: 10x;
+  background-color: #bb0000;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration-color: #000;
+}
   .icon-bar a {
     display: block;
     text-align: center;

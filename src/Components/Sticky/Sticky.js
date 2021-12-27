@@ -1,5 +1,6 @@
 import React from "react";
 import './Sticky.css';
+import live from "../../Assets/live.png"
 const Sticky = () => {
   return (
     <div>
@@ -17,8 +18,14 @@ const Sticky = () => {
         <a href="https://www.youtube.com/channel/UCse4FD6zAmrEl8Xz2y1aaug" class="youtube">
           <i class="fa fa-youtube"></i>
         </a>
+        
       </div>
-      
+      <div class="playbtn">
+        <a  href="https://www.youtube.com/channel/UCse4FD6zAmrEl8Xz2y1aaug" >
+        <img src={live} class="liveicon"/>      
+        <div className="listen">Listen Now</div>  
+        </a>
+      </div>
     </div>
   );
 };
